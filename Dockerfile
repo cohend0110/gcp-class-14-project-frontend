@@ -5,7 +5,6 @@ WORKDIR /app
 
 # This ARG is used to set the API URL for the React application
 ARG VITE_API_BASE_URL
-ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 
 # Inject the API URL into the environment variable
 ENV REACT_APP_API_URL=$REACT_APP_API_URL
