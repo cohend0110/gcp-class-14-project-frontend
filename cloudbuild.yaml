@@ -10,8 +10,8 @@ steps:
     - build
     - -t
     - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:$SHORT_SHA
-    - --build-arg
-    - REACT_APP_API_URL=${_BACKEND_URL}
+    - "--build-arg"
+    - "REACT_APP_API_URL=${_BACKEND_URL}"
     - .
 
 - name: gcr.io/cloud-builders/docker
