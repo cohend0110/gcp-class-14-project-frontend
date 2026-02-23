@@ -43,7 +43,7 @@ const AccountUpdateForm = ({ accountId, data }) => {
                 required
                 disabled
             />
-            <DataFormButton label="View Customer v1" doClick={doViewCustomer} />
+            <DataFormButton label="View Customer" doClick={doViewCustomer} />
         </DataUpdateForm>
     );
 };
